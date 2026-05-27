@@ -1,0 +1,11 @@
+import Physics
+import mesh
+import dataPhysics as dp
+import DataMesh as dm
+import DataHolder
+import Properties as prop
+
+mesh.physics ={DataHolder: FallPhysics; slimephysics; pushphysics;}
+dm.dp = SaveUnit{To: "C:\Users\%UserName%\AppData\Local\Testing Config\";mkDir}<{SaveAs = ".dataSave"}>
+prop.mesh = {DataHolder; Color103102121; Texture Defualt;}
+dm.dp.prop = SaveUnit
